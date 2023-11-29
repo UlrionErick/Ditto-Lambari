@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditto Lambari</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    <header class = "navbar navbar-expand-lg sticky-top p-4" id = "cabecalho">
+        <div class = "container">
+            <h1 class = "navbar-brand m-0 section-title">RESTO DITTO LAMBARI</h1>
+            <button class = "navbar-toggler navbar-dark mb-2" data-bs-toggle = "collapse" data-bs-target = "#menu-navegacao">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+            <nav class = "navbar-collapse collapse justify-content-end" id = "menu-navegacao">
+                <ul class = "nav nav-pills d-block d-md-flex">
+                    <li class = "nav-item fw-bold">
+                        <a href = "#sobre-o-restaurante" class = "nav-link">
+                            <i class = "bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class = "nav-item fw-bold">
+                        <a href = "#eventos" class = "nav-link">
+                            <i class = "bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class = "nav-item fw-bold">
+                        <a href = "#cardapio" class = "nav-link">
+                            <i class = "bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class = "nav-item fw-bold">
+                        <a href = "#fale-conosco" class = "nav-link">
+                            <i class = "bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                    <button id="changeColorBtn" class="btn btn-primary">Alterar Cor</button>
+                    <button id="animarImagemBtn" class="btn btn-secondary">Animar Imagem</button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div data-bs-spy = "scroll" data-bs-target = "#cabecalho" data-bs-smooth-scroll = true>
+            <section id = "sobre-o-restaurante">
+                <div class = "carousel slide" data-bs-ride = "carousel" id = "carousel">
+                    <div class = "carousel-inner">
+                        <div class = "carousel-item active" data-bs-interval = "3000">
+                            <img src = "/erick/img/comidas-de-pokemon-12.jpg" class = "w-100" alt = "#">
+                        </div>
+                        <div class = "carousel-item" data-bs-interval = "3000">
+                            <img src = "/erick/img/pikacomida.jpg" class = "w-100" alt = "#">
+                        </div>
+                        <div class = "carousel-item" data-bs-interval = "3000">
+                            <img src = "/erick/img/pikaqueijo.jpeg" class = "w-100" alt = "#">
+                        </div>
+                    </div>
+                    <button class = "carousel-control-prev" type = "button" data-bs-target = "#carousel" data-bs-slide = "prev">
+                        <span class = "carousel-control-prev-icon"></span>
+                    </button>
+                    <button class = "carousel-control-next" type = "button" data-bs-target = "#carousel" data-bs-slide = "next"> 
+                        <span class = "carousel-control-next-icon"></span>
+                    </button>
+                    <div class = "carousel-indicators">
+                        <button type = "button" data-bs-target = "#carousel" class = "active" data-bs-slide-to = "0"></button>
+                        <button type = "button" data-bs-target = "#carousel" data-bs-slide-to = "1"></button>
+                        <button type = "button" data-bs-target = "#carousel" data-bs-slide-to = "2"></button>
+                    </div>
+                </div>
+                <div class = "pt-5 pb-5">
+                    <div class = "container">
+                        <div class = "row">
+                            <div class = "col-md-5">
+                                <img src = "/erick/img/Ditto.jpeg" class = "d-block w-100 rounded mb-2" alt = "Foto do espaço interno do restaurante">
+                            </div>
+                            <div class = "col-md-7 mt-3 mt-md-0">
+                                <h2 class = "section-title">Sobre <span class = "text-colored">o restaurante</span></h2>
+                                <p>
+                                    O Ditto Lambari é um lugar verdadeiramente especial para os amantes de Pokémon e da culinária. Situado no coração da cidade, este restaurante temático oferece uma experiência única que combina o universo encantador de Pokémon com uma culinária excepcional.                                </p>
+                                <h3 class = "section-title">Sobre <span class = "text-colored">o espaço</span></h3>
+                                <p>
+
+                                    O espaço do Ditto Lambari é uma extensão encantadora do universo Pokémon. Cada detalhe foi cuidadosamente planejado para proporcionar uma atmosfera imersiva e divertida aos visitantes.
+
+                                    Ao entrar no restaurante, os clientes são recebidos por um ambiente repleto de referências aos Pokémon. Desde a decoração das paredes até os elementos de mobiliário, tudo é meticulosamente pensado para criar uma experiência única. Mesas temáticas com insígnias de diferentes tipos de Pokémon, ilustrações nas paredes que retratam cenas icônicas da série e uma paleta de cores vibrantes transportam os visitantes diretamente para o universo desses adoráveis ​​monstrinhos.                                </p>
+                                <ul>
+                                    <li>Mesas para batalhas de cartas</li>
+                                    <li>Para eventos especiais</li>
+                                    <li>Área de jogos com consoles Pokémon</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id = "eventos" class = "pt-5 pb-5">
+                <div class = "container">
+                    <div class = "row">
+                        <h2 class = "section-title text-center">Para todas <span class = "text-colored">as ocasiões</span></h2>
+                    </div>
+                    <div class = "row mt-4">
+                        <div class="col-md-4">
+                            <img src = "images_site_restaurante/eventos/aniversario.jpg" class = "d-block w-100 rounded mb-2" alt = "">
+                            <h3 class = "section-title text-colored fs-4">
+                                <i class = "bi bi-calendar-heart-fill"></i>
+                                Aniversários
+                            </h3>
+                            <p>
+                                As festas de aniversário no Ditto Lambari são verdadeiras aventuras Pokémon. O espaço é preparado para receber os aniversários e seus convidados em meio a decorações temáticas, jogos interativos e atividades baseadas nos Pokémon favoritos da pessoa celebrada. Desde mesas decoradas com os tipos de Pokémon até pratos e bebidas personalizadas, cada detalhe é pensado para tornar o dia especial ainda mais específico.                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src = "images_site_restaurante/eventos/casamento.jpg" class = "d-block w-100 rounded mb-2" alt = "">
+                            <h3 class = "section-title text-colored fs-4">
+                                <i class = "bi bi-arrow-through-heart-fill"></i>
+                                Recepção para casamentos
+                            </h3>
+                            <p>
+                                Para os casais que desejam uma celebração única e divertida, o Ditto Lambari oferece um espaço encantador para casamentos. Com uma decoração temática elegante e elementos que remetem ao universo Pokémon, o local se transforma em um cenário mágico para a união dos noivos. Desde a entrada até a área de recepção, cada detalhe reflete a paixão pelo mundo Pokémon, proporcionando um ambiente descontraído e cheio de personalidade.                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src = "images_site_restaurante/eventos/confraternizacoes.jpg" class = "d-block w-100 rounded mb-2" alt = "">
+                            <h3 class = "section-title text-colored fs-4">
+                                <i class = "bi bi-people-fill"></i>
+                                Confraternizações
+                            </h3>
+                            <p>
+                                Para eventos corporativos ou reuniões entre amigos, o Ditto Lambari é o local perfeito para confraternizações. Com áreas reservadas, atividades personalizadas e um cardápio diversificado inspirado em Pokémon, as confraternizações se tornam momentos descontraídos e divertidos. Seja para celebrar uma conquista, fortalecer laços ou simplesmente se divertir, o espaço oferece um ambiente acolhedor e temático para todos os participantes.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id = "cardapio" class = "pt-5 pb-5">
+                <div class = "container">
+                    <div class = "row">
+                        <h2 class = "section-title text-center">Nosso <span class = "text-colored">cardápio</span></h2>
+                    </div>
+                    <div class = "row mt-4">
+                        <aside class = "col-md-2">
+                            <nav class = "nav nav-pills flex-column nav-menu">
+                                <button type = "button" data-bs-toggle = "tab" data-bs-target = "#bebidas-sem-alcool" class = "nav-link active text-colored fw-bold text-start">Bebidas não alcoólicas</button>
+                                <button type = "button" data-bs-toggle = "tab" data-bs-target = "#bebidas-alcoolicas" class = "nav-link text-colored fw-bold text-start">Bebidas alcoólicas</button>
+                                <button type = "button" data-bs-toggle = "tab" data-bs-target = "#entradas" class = "nav-link text-colored fw-bold text-start">Entradas</button>
+                                <button type = "button" data-bs-toggle = "tab" data-bs-target = "#pratos-principais" class = "nav-link text-colored fw-bold text-start">Pratos principais</button>
+                                <button type = "button" data-bs-toggle = "tab" data-bs-target = "#sobremesas" class = "nav-link text-colored fw-bold text-start">Sobremesas</button>
+                            </nav>
+                        </aside>
+                        <div class = "col-md-10">
+                            <div class = "tab-content">
+                                <div class = "tab-pane active" id = "bebidas-sem-alcool">
+                                    <div class = "row">
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                                            <img src = "/erick/img/bulba.jpeg" class = "d-block w-100" alt = "Coca-cola">
+                                            <p class="text-colored fw-bold mt-2">Flor de Bulbasaur</p>
+                                            <p class="initial-text text-center">Um drink verde vibrante, </p>
+                                            <p class="additional-text text-center" style="display: none;">podendo ser um mojito de kiwi ou um smoothie de espinafre e frutas tropicais.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                            </div>
+                                        
+                                            <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                                            <img src = "/erick/img/chamander.jpg" class = "d-block w-100" alt = "Suco de laranja">
+                                            <p class="text-colored fw-bold mt-2">Chama de Charmander</p>
+                                            <p class="initial-text text-center">Uma bebida picante e cítrica, </p>
+                                            <p class="additional-text text-center" style="display: none;">talvez uma margarita de manga com um toque de pimenta.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
+                                            <img src = "/erick/img/squitle.jpg" class = "d-block w-100" alt = "Coca-cola">
+                                            <p class="text-colored fw-bold mt-2">Respingo de Squirtle</p>
+                                            <p class="initial-text text-center">Uma opção refrescante, </p>
+                                            <p class="additional-text text-center" style="display: none;">como uma limonada azulada com adição de blue curaçao para dar a cor característica do Squirtle.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/gengar.jpg" class = "d-block w-100" alt = "Suco de laranja">
+                                            <p class="text-colored fw-bold mt-2">Delícia Sombria de Gengar</p>
+                                            <p class="initial-text text-center">Uma bebida roxa ou escura, </p>
+                                            <p class="additional-text text-center" style="display: none;">como um suco de uva com um toque de especiarias, ou um coquetel de frutas escuras com um toque exótico.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/margekarpa.jpg" class = "d-block w-100" alt = "Coca-cola">
+                                            <p class="text-colored fw-bold mt-2">Respingo de Magikarp</p>
+                                            <p class="initial-text text-center">Uma opção divertida e colorida, </p>
+                                            <p class="additional-text text-center" style="display: none;"> talvez um ponche frutado com algumas frutas variadas, criando um visual vibrante e refrescante.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/mewtwo.jpeg" class = "d-block w-100" alt = "Suco de laranja">
+                                            <p class="text-colored fw-bold mt-2">Elixir de Mewtwo</p>
+                                            <p class="initial-text text-center">Algo misterioso e intrigante, </p>
+                                            <p class="additional-text text-center" style="display: none;">talvez uma mistura de xaropes de sabores diferentes, como framboesa, mirtilo e limão, com um toque efervescente.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "tab-pane" id = "bebidas-alcoolicas">
+                                    <div class = "row">
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/miau.jpeg" class = "d-block w-100" alt = "Cerveja">
+                                            <p class="text-colored fw-bold mt-2">Travessuras de Meowth</p>
+                                            <p class="initial-text text-center">Uma opção divertida e travessa, </p>
+                                            <p class="additional-text text-center" style="display: none;">como um coquetel de limão com infusão de lavanda e um toque de licor de laranja para criar um sabor cítrico e refrescante.</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/pikachu.jpeg" class = "d-block w-100" alt = "Vinho">
+                                            <p class="text-colored fw-bold mt-2">Centelha de Pikachu</p>
+                                            <p class="initial-text text-center">Uma bebida com núcleos vibrantes </p>
+                                            <p class="additional-text text-center" style="display: none;">e um toque energético, como uma mistura de vodka com suco de maracujá e um toque de refrigerante de limão ou energético para dar aquele "choque".</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "tab-pane" id = "entradas">
+                                    <div class = "row">
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/diglettearroz.jpeg" class = "d-block w-100" alt = "Nome da entrada">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/pikabolinho.jpeg" class = "d-block w-100" alt = "Nome da entrada">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick//img/evee.jpeg" class = "d-block w-100" alt = "Nome da entrada">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "tab-pane" id = "pratos-principais">
+                                    <div class = "row">
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/bkmiau.jpg" class = "d-block w-100" alt = "Pizza">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick//img/comidas-de-pokemon-12.jpg" class = "d-block w-100" alt = "Salmão">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick//img/sleepfood.jpg" class = "d-block w-100" alt = "Pizza">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/pikapika.jpeg" class = "d-block w-100" alt = "Salmão">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "tab-pane" id = "sobremesas">
+                                    <div class = "row">
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/pikadoces.jpg" class = "d-block w-100" alt = "Bolo de chocolate">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text text-center">Texto inicial curto...</p>
+                                            <p class="additional-text text-center" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                        <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">                                            
+                                            <img src = "/erick/img/evee.jpeg" class = "d-block w-100" alt = "Cupcake">
+                                            <p class="text-colored fw-bold mt-2">Nome do Prato</p>
+                                            <p class="initial-text">Texto inicial curto...</p>
+                                            <p class="additional-text" style="display: none;">Texto adicional ou detalhado...</p>
+                                            <button class="read-more-btn btn btn-link">Ler mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id = "fale-conosco" class = "pt-5 pb-5">
+                <div class = "container">
+                    <div class = "row">
+                        <h2 class = "section-title text-center">Fale <span class = "text-colored">conosco</span></h2>
+                    </div>
+                    <div class = "row mt-4">
+                        <div class = "col-md-7 mb-5">
+                            <form>
+                                <div class = "mb-3">
+                                    <label for = "nome" class = "form-label fw-bold text-colored">Seu nome</label>
+                                    <input type = "text" id = "nome" name = "nome" class = "form-control">
+                                </div>
+                                <div class = "mb-3">
+                                    <label for = "email" class = "form-label fw-bold text-colored">Seu e-mail</label>
+                                    <input type = "email" id = "email" name = "email" class = "form-control">
+                                </div>
+                                <div class = "mb-3">
+                                    <label for = "telefone" class = "form-label fw-bold text-colored">Seu telefone(opcional)</label>
+                                    <input type = "tel" id = "telefone" class = "form-control">
+                                </div>
+                                <div class = "mb-3">
+                                    <label for = "mensagem" class = "form-label fw-bold text-colored">Sua mensagem</label>
+                                    <textarea id = "mensagem" name = "mensagem" class = "form-control"></textarea>
+                                </div>
+                                <button type = "submit" class = "btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class = "col-md-5">
+                            <div class = "row">
+                                <h3 class = "section-title fs-4 text-colored">
+                                    <i class = "bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class = "social-links">
+                                    <li class = "fs-5">
+                                        <a href = "#">
+                                            <i class = "bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class = "fs-5 ms-1 me-1">
+                                        <a href = "#">
+                                            <i class = "bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class = "fs-5">
+                                        <a href = "#">
+                                            <i class = "bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class = "row mt-4">
+                                <h3 class = "section-title fs-4 text-colored">
+                                    <i class = "bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Teste Exemplo nº 145 , Bairro Bootstrap - São Paulo - SP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src = "https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src = "plugins_jquery_site_restaurante/jquery.mask.min.js"></script>
+    <script src = "plugins_jquery_site_restaurante/jquery.validate.min.js"></script>
+    <script src = "plugins_jquery_site_restaurante/messages_pt_BR.min.js"></script>
+
+    <script>
+
+$(document).ready(function() {
+    var isExpanded = false;
+    var originalWidth, originalHeight;
+
+
+    // cores de fundo do corpo da página
+    $("#changeColorBtn").click(function() {
+        $("body").toggleClass("light-background");
+    });
+    // cores de fundo do corpo da página
+
+    
+
+    //animação de imagens dentro de um carrossel 
+    $("#animarImagemBtn").click(function() {
+        var $carouselImages = $("div.carousel-item img");
+
+        if (!isExpanded) {
+            originalWidth = $carouselImages.css('width');
+            originalHeight = $carouselImages.css('height');
+
+            $carouselImages.animate({
+                left: '250px',
+                opacity: '0.5',
+                height: '150px',
+                width: '150px'
+            });
+            isExpanded = true;
+        } else {
+            $carouselImages.animate({
+                left: '0',
+                opacity: '1',
+                height: originalHeight,
+                width: originalWidth
+            });
+            isExpanded = false;
+        }
+    });
+});
+    //animação de imagens dentro de um carrossel 
+
+
+
+// layout de "leia mais" ou "mostrar mais"
+$(document).ready(function() {
+    $(".read-more-btn").on("click", function() {
+        var $this = $(this);
+        var $initialText = $this.siblings(".initial-text");
+        var $additionalText = $this.siblings(".additional-text");
+
+        if ($initialText.is(":visible")) {
+            $initialText.hide();
+            $additionalText.show();
+            $this.text("Mostrar menos");
+        } else {
+            $initialText.show();
+            $additionalText.hide();
+            $this.text("Ler mais");
+        }
+    });
+});
+// layout de "leia mais" ou "mostrar mais".
+
+
+// Máscara para o campo de telefone / Validação do formulário:
+
+        $(document).ready(function() {
+            $("#telefone").mask("(00) 00000-0000", {placeholder: "(__) _____-____"});
+
+            $("form").validate({
+                rules: {
+                    nome: {
+                        required: true,
+                    },
+                    email: {
+                        required: true,
+                        email: true,
+                    },
+                    mensagem: {
+                        required: true,
+                    }
+                }
+            });
+        });
+        // Máscara para o campo de telefone / Validação do formulário:
+
+    </script>
+</body>
+</html>
